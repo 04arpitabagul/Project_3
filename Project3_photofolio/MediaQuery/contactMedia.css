@@ -1,0 +1,797 @@
+@media (min-width: 480px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  .header {
+    height: 400px;
+    width: 100%;
+  }
+  .container {
+    height: 400px;
+    width: 100%;
+    margin: auto;
+  }
+  .navbar {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo span {
+    font-size: 35px;
+  }
+  .mainmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .submenu {
+    margin: 20px 0px;
+  }
+  .submenu1 {
+    margin-bottom: 10px;
+  }
+  .trip {
+    margin-left: 20px;
+  }
+  .deepmenu {
+    visibility: hidden;
+  }
+  .submenupart {
+    position: absolute;
+    left: 100%;
+    top: 10px;
+  }
+  .service {
+    height: 1400px;
+    width: 100%;
+  }
+  .container2 {
+    height: 1400px;
+    width: 100%;
+  }
+  .part2 {
+    height: 400px;
+    width: 99%;
+    margin: auto;
+  }
+  .part2 h2 {
+    text-align: center;
+    font-size: 38px;
+  }
+  .button {
+    margin-left: 26%;
+  }
+  .flex2 {
+    height: 950px;
+    width: 99%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .subflex11 {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .resident {
+    height: 130px;
+    width: 100%;
+  }
+  .choose {
+    height: 130px;
+    width: 100%;
+  }
+  .info {
+    height: 130px;
+    width: 100%;
+    background-color: #000;
+  }
+  .form {
+    height: 500px;
+    width: 90%;
+    margin: auto;
+  }
+  .horizontal {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: gold; */
+  }
+  .sec1 {
+    height: 120px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .sec2 {
+    height: 120px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  #name {
+    height: 40px;
+    width: 100%;
+  }
+  #emailp {
+    height: 40px;
+    width: 100%;
+  }
+  .subjects {
+    height: 80px;
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 00px;
+    /* background-color: aqua; */
+  }
+  #subject {
+    height: 40px;
+    width: 100%;
+  }
+  .message {
+    height: 260px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 0px;
+    /* background-color: blanchedalmond; */
+  }
+  #message {
+    width: 100%;
+  }
+  .button9 #big9 {
+    height: 55px;
+    width: 200px;
+    margin-left: 28%;
+  }
+  footer {
+    height: 120px;
+    width: 100%;
+  }
+  .carter1 {
+    height: 120px;
+    width: 100%;
+  }
+  .flex14 {
+    height: 120px;
+    width: 100%;
+  }
+  .flex14 hr {
+    width: 100%;
+  }
+}
+@media (min-width: 760px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  .header {
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+  }
+  .container {
+    height: 80px;
+    width: 96%;
+    margin: auto;
+  }
+  .navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+  .logo {
+    margin-top: -10px;
+  }
+  .mainmenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+  }
+  .submenu {
+    margin: 0px 5px;
+  }
+  .submenu1 {
+    margin-right: 8px;
+    margin-bottom: 0px;
+  }
+  .trip {
+    margin-left: 0px;
+  }
+  .deepmenu {
+    visibility: visible;
+  }
+  .submenupart {
+    position: absolute;
+    left: 30%;
+    top: 50px;
+  }
+  .service {
+    height: 1300px;
+    width: 100%;
+    /* background-color: aqua; */
+  }
+  .container2 {
+    height: 1300px;
+    width: 100%;
+  }
+  .part2 {
+    height: 400px;
+    width: 96%;
+    margin: auto;
+    /* background-color: aqua; */
+  }
+  .part2 h2 {
+    text-align: center;
+    font-size: 38px;
+  }
+  .button {
+    margin-left: 34%;
+  }
+  .flex2 {
+    height: 950px;
+    width: 99%;
+    margin: auto;
+    margin-top: 0px;
+    /* background-color: green; */
+  }
+  .subflex11 {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: aqua; */
+  }
+  .resident {
+    height: 130px;
+    width: 100%;
+    /* background-color:blue; */
+  }
+  .choose {
+    height: 130px;
+    width: 100%;
+    /* background-color: blueviolet; */
+  }
+  .info {
+    height: 130px;
+    width: 100%;
+    background-color: #000;
+  }
+  .form {
+    height: 500px;
+    width: 90%;
+    /* background-color: yellowgreen; */
+    margin: auto;
+  }
+  .horizontal {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: gold; */
+  }
+  .sec1 {
+    height: 120px;
+    width: 49%;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .sec2 {
+    height: 120px;
+    width: 49%;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  #name {
+    height: 40px;
+    width: 100%;
+  }
+  #emailp {
+    height: 40px;
+    width: 100%;
+  }
+  .subjects {
+    height: 80px;
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 00px;
+    /* background-color: aqua; */
+  }
+  #subject {
+    height: 40px;
+    width: 100%;
+  }
+  .message {
+    height: 260px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 0px;
+    /* background-color: blanchedalmond; */
+  }
+  #message {
+    width: 100%;
+  }
+  .button9 #big9 {
+    height: 55px;
+    width: 200px;
+    margin-left: 35%;
+  }
+  footer {
+    height: 120px;
+    width: 100%;
+  }
+  .carter1 {
+    height: 120px;
+    width: 96%;
+  }
+  .flex14 {
+    height: 120px;
+    width: 100%;
+  }
+  .flex14 hr {
+    width: 100%;
+  }
+}
+@media (min-width: 991px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  .header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 1000;
+  }
+  .container {
+    height: 80px;
+    width: 90%;
+    margin: auto;
+  }
+  .navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+  .logo {
+    margin-top: -10px;
+  }
+  .mainmenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+  }
+  .submenu {
+    margin: 0px 15px;
+  }
+  .submenu1 {
+    margin-right: 15px;
+  }
+  .trip {
+    margin-left: 0px;
+  }
+  .deepmenu {
+    visibility: visible;
+  }
+  .submenupart {
+    position: absolute;
+    left: 30%;
+    top: 50px;
+  }
+  .service {
+    height: 730px;
+    width: 100%;
+    /* background-color: aqua; */
+  }
+  .container2 {
+    height: 730px;
+    width: 90%;
+    margin: auto;
+  }
+  .part2 {
+    height: 350px;
+    width: 65%;
+    margin: auto;
+    /* background-color: aqua; */
+  }
+  .part2 h2 {
+    text-align: center;
+    font-size: 38px;
+  }
+  .button {
+    margin-left: 34%;
+  }
+  .service {
+    height: 1800px;
+    width: 100%;
+    /* background-color: aqua; */
+  }
+  .container2 {
+    height: 1800px;
+    width: 100%;
+  }
+  .part2 {
+    height: 520px;
+    width: 96%;
+    margin: auto;
+    /* background-color: aqua; */
+  }
+  .part2 h2 {
+    text-align: center;
+    font-size: 38px;
+  }
+  .button {
+    margin-left: 38%;
+  }
+  .service {
+    height: 1075px;
+    width: 100%;
+    /* background-color: aqua; */
+  }
+  .container2 {
+    height: 1075px;
+    width: 90%;
+    margin: auto;
+  }
+  .part2 {
+    height: 400px;
+    width: 65%;
+    margin: auto;
+    /* background-color: aqua; */
+  }
+  .part2 h2 {
+    text-align: center;
+    font-size: 38px;
+  }
+  .button {
+    margin-left: 31%;
+  }
+  .flex2 {
+    height: 670px;
+    width: 90%;
+    margin: auto;
+    margin-top: 0px;
+    /* background-color: green; */
+  }
+  .subflex11 {
+    height: 130px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* background-color: aqua; */
+  }
+  .resident {
+    height: 130px;
+    width: 32%;
+    /* background-color:blue; */
+  }
+  .choose {
+    height: 130px;
+    width: 32%;
+    /* background-color: blueviolet; */
+  }
+  .info {
+    height: 130px;
+    width: 32%;
+    /* background-color:#000; */
+  }
+  .form {
+    height: 500px;
+    width: 90%;
+    /* background-color: yellowgreen; */
+    margin: auto;
+  }
+  .horizontal {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: gold; */
+  }
+  .sec1 {
+    height: 120px;
+    width: 49%;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .sec2 {
+    height: 120px;
+    width: 49%;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  #name {
+    height: 40px;
+    width: 100%;
+  }
+  #emailp {
+    height: 40px;
+    width: 100%;
+  }
+  .subjects {
+    height: 80px;
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 00px;
+    /* background-color: aqua; */
+  }
+  #subject {
+    height: 40px;
+    width: 100%;
+  }
+  .message {
+    height: 260px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 0px;
+    /* background-color: blanchedalmond; */
+  }
+  #message {
+    width: 100%;
+  }
+  .button9 #big9 {
+    height: 55px;
+    width: 200px;
+    margin-left: 35%;
+  }
+  footer {
+    height: 120px;
+    width: 100%;
+  }
+  .carter1 {
+    height: 120px;
+    width: 90%;
+  }
+  .flex14 {
+    height: 120px;
+    width: 100%;
+  }
+  .flex14 hr {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  .header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 1000;
+  }
+  .container {
+    height: 80px;
+    width: 90%;
+    margin: auto;
+  }
+  .navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+  .logo {
+    margin-top: -10px;
+  }
+  .mainmenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+  }
+  .submenu {
+    margin: 0px 18px;
+  }
+  .submenu1 {
+    margin-right: 15px;
+  }
+  .trip {
+    margin-left: 0px;
+  }
+  .deepmenu {
+    visibility: visible;
+  }
+  .submenupart {
+    position: absolute;
+    left: 30%;
+    top: 50px;
+  }
+  .service {
+    height: 1020px;
+    width: 100%;
+    /* background-color: aqua; */
+  }
+  .container2 {
+    height: 1020px;
+    width: 90%;
+    margin: auto;
+  }
+  .part2 {
+    height: 370px;
+    width: 40%;
+    margin: auto;
+    /* background-color: aqua; */
+  }
+  .part2 h2 {
+    text-align: center;
+    font-size: 38px;
+  }
+  .button {
+    margin-left: 33%;
+  }
+  .service {
+    height: 1090px;
+    width: 100%;
+    /* background-color: aqua; */
+  }
+  .container2 {
+    height: 1090px;
+    width: 90%;
+    margin: auto;
+  }
+  .part2 {
+    height: 370px;
+    width: 40%;
+    margin: auto;
+    /* background-color: aqua; */
+  }
+  .part2 h2 {
+    text-align: center;
+    font-size: 38px;
+  }
+  .button {
+    margin-left: 32%;
+  }
+  .flex2 {
+    height: 670px;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    /* background-color: green; */
+  }
+  .subflex11 {
+    height: 130px;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* background-color: pink; */
+  }
+  .resident {
+    height: 130px;
+    width: 32%;
+    /* background-color:blue; */
+  }
+  .choose {
+    height: 130px;
+    width: 32%;
+    /* background-color: blueviolet; */
+  }
+  .info {
+    height: 130px;
+    width: 32%;
+    /* background-color:#000; */
+  }
+  .form {
+    height: 500px;
+    width: 65%;
+    /* background-color: yellowgreen; */
+    margin: auto;
+  }
+  .horizontal {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: gold; */
+  }
+  .sec1 {
+    height: 120px;
+    width: 49%;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .sec2 {
+    height: 120px;
+    width: 49%;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  #name {
+    height: 40px;
+    width: 100%;
+  }
+  #emailp {
+    height: 40px;
+    width: 100%;
+  }
+  .subjects {
+    height: 80px;
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 00px;
+    /* background-color: aqua; */
+  }
+  #subject {
+    height: 40px;
+    width: 100%;
+  }
+  .message {
+    height: 260px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 0px;
+    /* background-color: blanchedalmond; */
+  }
+  #message {
+    width: 100%;
+  }
+  .button9 #big9 {
+    height: 55px;
+    width: 200px;
+    margin-left: 40%;
+  }
+  footer {
+    height: 120px;
+    width: 100%;
+  }
+  .carter1 {
+    height: 120px;
+    width: 90%;
+  }
+  .flex14 {
+    height: 120px;
+    width: 100%;
+  }
+  .flex14 hr {
+    width: 100%;
+  }
+}
